@@ -59,7 +59,7 @@ int getData(int&num,string&firstName,string&lastName,string&phoneNumber) {
         //section where we use ofstream to write new account data onto a text file and save it to access later
         ofstream myfile;
         myfile.open ("C:\\Users\\Urihel\\Downloads\\NewBankingSystem.txt", fstream::app);
-        myfile << '\n' << "what is going on today?";
+        myfile << '\n' << firstName << " " << lastName << " " phoneNumber;
         return 0;
         //------------------------------end of if statement-----------------------------
     }
