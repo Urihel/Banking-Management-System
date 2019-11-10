@@ -11,7 +11,7 @@ int bankTitle() {
 
     cout<<setw(50)<<"Cookies Banking System"<<endl;
     cout<<setw(56)<<"Find out how to open free checking"<<endl;
-    //make sure to return num in this function if you want to use it on the other.
+    
 }
 int mainMenu() {
 
